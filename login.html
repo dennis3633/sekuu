@@ -5,124 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SEKU University Hostel Booking - Login</title>
-  <style>
-    body {
-      background-color: beige;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      text-align: center;
-      margin: 50px auto;
-      background-color: rgba(255, 255, 255, 0.9);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      max-width: 600px;
-    }
-
-    .logo {
-      width: 150px;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-align: justify;
-    }
-
-    form {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    input[type="text"] {
-      padding: 10px;
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 10px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: #4caf50;
-      color: #ffffff;
-      border: none;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
-
-    .form-footer {
-      font-weight: bold;
-      font-size: 20px;
-      margin-top: 40px;
-    }
-
-    .form-footer a {
-      color: #000000;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    .form-footer a:hover {
-      text-decoration: underline;
-    }
-
-    .form-footer i {
-      font-size: 24px;
-      vertical-align: middle;
-    }
-
-    .images {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 40px;
-    }
-
-    .image-item {
-      margin-bottom: 20px;
-      flex: 0 0 33.33%;
-      max-width: 33.33%;
-    }
-
-    .image-item img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      object-fit: cover; /* Added to resize the images to fit perfectly */
-    }
-
-    .image-item p {
-      font-weight: bold;
-      margin-top: 10px;
-    }
-
-    @media (max-width: 768px) {
-      .container {
-        max-width: 90%;
-      }
-
-      .image-item {
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
@@ -135,14 +18,14 @@
     <p>Thank you for choosing SEKU University Hostel Booking Website. We look forward to accommodating you in our comfortable and convenient hostels. Should you have any questions or concerns, please don't hesitate to reach out to our dedicated support team, who will be more than happy to assist you.</p>
     <p>Happy booking!</p>
     <p>The SEKU University Hostel Booking Team</p>
-    <form id="login-form">
+    <form id="login-form" action="seku.html">
       <input type="text" id="name" placeholder="Name" required>
       <input type="text" id="registration-number" placeholder="Registration Number" required>
       <button type="submit">Login</button>
     </form>
     <div class="images">
       <div class="image-item">
-        <img src="https://www.seku.ac.ke/south-eastern-kenya-university-undergraduate-admissions.html?id=63" alt="Admission Staff">
+        <img src="https://scontent.fnuu1-1.fna.fbcdn.net/v/t1.6435-9/162646678_1762610357254042_6182330424119107426_n.jpg?stp=c52.0.206.206a_dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=da31f3&_nc_ohc=1u0yDiTUvT4AX_85x10&_nc_oc=AQk8gQ7SuzySZeVBWoK55bXRWEjsAhAC1PIkC7R1kZBADOn1VRZO66oRuj_PzWErOsU&_nc_ht=scontent.fnuu1-1.fna&oh=00_AfB7d7I1ILpdo7TDTVYN6bxDBXTmE9Ki7qDoZyM19EvH9w&oe=6499C3B3" alt="Admission Staff">
         <p>Admission Staff</p>
       </div>
       <div class="image-item">
